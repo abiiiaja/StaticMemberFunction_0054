@@ -6,4 +6,7 @@ public:
     static int nim; //deklarasi variabel static yaitu variabel nim
     int id;
     string nama;
+
+    void setID();
+    void printAll();
 };
