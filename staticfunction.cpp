@@ -9,4 +9,7 @@ private:
 public:
     int id;
     string nama;
+
+    void setID();
+    void printAll();
 };
