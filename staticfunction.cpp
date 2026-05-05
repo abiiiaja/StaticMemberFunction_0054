@@ -27,3 +27,7 @@ public:
 };
 
 int Mahasiswa::nim = 0;
+
+void Mahasiswa::setID() {
+    id = ++nim; // Prefix increment agar NIM naik sebelum diassign
+}
